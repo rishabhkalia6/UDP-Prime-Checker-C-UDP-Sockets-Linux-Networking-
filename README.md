@@ -80,3 +80,21 @@ This shows how the server:
 ---
 
 ## 💻 Output
+
+![image](https://github.com/rishabhkalia6/UDP-Prime-Checker-C-UDP-Sockets-Linux-Networking-/blob/main/screenshots/Screenshot%20from%202025-05-17%2012-30-52.png?raw=true)
+
+This screenshot displays the terminal output of the **UDP Prime Checker project**, which uses **connectionless UDP sockets** to facilitate client-server communication.
+
+- On the left, the **UDP** server is running and waiting for client requests. When it receives a number from the client, it checks if the number is prime and sends back a response.
+
+- On the right, the **UDP** client prompts the user to enter a number. The number is then sent to the server, and the client displays the result based on the server’s response.
+
+The interaction in this screenshot demonstrates:
+
+- Successful **datagram transmission and reception** over **UDP**
+
+- Correct operation of the **prime-checking logic**
+
+- Real-time **request-response cycle** between two independent programs
+
+This output confirms reliable, stateless communication using low-level **UDP sockets**, making it a solid example of network programming fundamentals in C.
